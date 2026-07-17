@@ -1,0 +1,12 @@
+{
+  "space_id": "DineshAI/XiD5RhcEDK",
+  "emoji": "🎯",
+  "created_at": "2026-07-17T04:14:51+00:00",
+  "paper": {"arxiv_id": "2602.07285", "openreview_id": "XiD5RhcEDK"},
+  "tags": ["icml2026-repro", "paper-XiD5RhcEDK"],
+  "autosync": true,
+  "private": false,
+  "title": "Repro - Fair Sufficient Decisions",
+  "last_page": "conclusion",
+  "local_dashboards": {}
+}

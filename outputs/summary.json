@@ -1,0 +1,151 @@
+{
+  "paper": "XiD5RhcEDK",
+  "claim_1": {
+    "scores_are_exact_class_probabilities": true,
+    "threshold": 0.5,
+    "accuracy": 0.7535000000000001,
+    "ppv_gap": 0.19999999999999996,
+    "for_gap": 0.07999999999999999
+  },
+  "claim_2_and_3": [
+    {
+      "case": "A",
+      "accuracy": {
+        "p": 0.8,
+        "q": 0.3142857142857143,
+        "accuracy": 0.7238823529411765,
+        "dsep": 0.026824195825048115,
+        "ppv_gap": 0.0,
+        "for_gap": 5.551115123125783e-17,
+        "official_reported_value": 0.7238823529411764,
+        "direct_optimizer": {
+          "feasible_starts": 13,
+          "accuracy": 0.7238823524804844,
+          "dsep": 0.026824195933336688,
+          "max_crossproduct_violation": 8.68749516769185e-15,
+          "ppv_gap": 4.39648317751562e-14,
+          "for_gap": 1.965094753586527e-14
+        },
+        "objective_gap_vs_direct": 4.60692151094122e-10,
+        "rules": [
+          [
+            0.0,
+            0.0,
+            3.3306690738754696e-16,
+            1.0,
+            1.0
+          ],
+          [
+            0.051532377656945086,
+            0.051532377656945086,
+            0.8425543746910531
+          ]
+        ]
+      },
+      "separation": {
+        "p": 0.8,
+        "q": 0.3142857142857143,
+        "accuracy": 0.7238823529411765,
+        "dsep": 0.026824195825048115,
+        "ppv_gap": 0.0,
+        "for_gap": 5.551115123125783e-17,
+        "official_reported_value": 0.026824195825048087,
+        "direct_optimizer": {
+          "feasible_starts": 16,
+          "accuracy": 0.7238823524804715,
+          "dsep": 0.026824195933331206,
+          "max_crossproduct_violation": 2.040034807748725e-15,
+          "ppv_gap": 1.84297022087776e-14,
+          "for_gap": 4.274358644806853e-15
+        },
+        "objective_gap_vs_direct": 1.0828309082722143e-10,
+        "rules": [
+          [
+            0.0,
+            0.0,
+            3.3306690738754696e-16,
+            1.0,
+            1.0
+          ],
+          [
+            0.051532377656945086,
+            0.051532377656945086,
+            0.8425543746910531
+          ]
+        ]
+      }
+    },
+    {
+      "case": "B",
+      "accuracy": {
+        "p": 0.6975576820700883,
+        "q": 0.26122115896495574,
+        "accuracy": 0.7247235512938053,
+        "dsep": 0.09432395514407416,
+        "ppv_gap": 1.1102230246251565e-16,
+        "for_gap": 1.6653345369377348e-16,
+        "official_reported_value": 0.7247235512938052,
+        "direct_optimizer": {
+          "feasible_starts": 15,
+          "accuracy": 0.7247235509306595,
+          "dsep": 0.09432395540827249,
+          "max_crossproduct_violation": 2.1048440768112187e-13,
+          "ppv_gap": 2.014166611274959e-12,
+          "for_gap": 4.997668945350142e-13
+        },
+        "objective_gap_vs_direct": 3.631457357045065e-10,
+        "rules": [
+          [
+            0.0,
+            0.0,
+            0.5185438341677227,
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.05276448706194681,
+            1.0
+          ]
+        ]
+      },
+      "separation": {
+        "p": 0.75,
+        "q": 0.29687499999999994,
+        "accuracy": 0.7148275862068966,
+        "dsep": 0.09279981753645708,
+        "ppv_gap": 2.220446049250313e-16,
+        "for_gap": 5.551115123125783e-17,
+        "official_reported_value": 0.09279981753645695,
+        "direct_optimizer": {
+          "feasible_starts": 10,
+          "accuracy": 0.7148275861237827,
+          "dsep": 0.09279981801800892,
+          "max_crossproduct_violation": 6.494804694057166e-15,
+          "ppv_gap": 8.215650382226158e-15,
+          "for_gap": 1.176836406102666e-14
+        },
+        "objective_gap_vs_direct": 4.815518400702601e-10,
+        "rules": [
+          [
+            0.0,
+            0.0,
+            0.20000000000000073,
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.696551724137932
+          ]
+        ]
+      }
+    }
+  ],
+  "negative_controls": {
+    "minimum_predictive_parity_gap_over_nonconstant_deterministic_pairs": 0.018181818181818132,
+    "deterministic_pairs_checked": 180,
+    "thresholding_rejected": true
+  }
+}
