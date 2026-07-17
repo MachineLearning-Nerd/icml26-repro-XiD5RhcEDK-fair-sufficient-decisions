@@ -3,6 +3,9 @@
 **Session:** autoloop. **Last updated:** 2026-07-17. **State:** locally complete;
 publication queued.
 
+Public GitHub: `MachineLearning-Nerd/icml26-repro-XiD5RhcEDK-fair-sufficient-decisions`
+(initial evidence commit `f6e5386`).
+
 ## Evidence
 
 - Exact calibrated scores become predictively unfair after thresholding:
@@ -17,5 +20,6 @@ publication queued.
 
 ## Next
 
-Complete Trackio, publish public GitHub, and queue HF publication until the daily
-Space-creation quota resets.
+Trackio and public GitHub are complete. Publish `DineshAI/XiD5RhcEDK` after the
+daily Space-creation quota resets (latest attempt: HTTP 429, about 22h remaining),
+then verify tags/artifacts and request verdict.
